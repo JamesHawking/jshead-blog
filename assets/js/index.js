@@ -73,8 +73,6 @@
             speed: 500
         },
 
-
-
         allOptions = $.extend(defaults, options);
 
         allOptions.elem.click(function (event) {
