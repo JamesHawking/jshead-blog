@@ -73,6 +73,8 @@
             speed: 500
         },
 
+
+
         allOptions = $.extend(defaults, options);
 
         allOptions.elem.click(function (event) {
@@ -81,11 +83,13 @@
                 $htmlBody = $('html, body'),
                 offset = ($this.attr('data-offset')) ? $this.attr('data-offset') : false,
                 position = ($this.attr('data-position')) ? $this.attr('data-position') : false,
-                toMove;
+                toMove,
+                imgSize = $('.main-header').height();
+
 
             if (offset) {
                 toMove = parseInt(offset);
-                $htmlBody.stop(true, false).animate({scrollTop: ($(this.hash).offset().top + toMove) }, allOptions.speed);
+                $htmlBody.stop(true, false).animate({scrollTop: imgSize }, allOptions.speed);
             } else if (position) {
                 toMove = parseInt(position);
                 $htmlBody.stop(true, false).animate({scrollTop: toMove }, allOptions.speed);
