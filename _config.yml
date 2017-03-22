@@ -3,7 +3,7 @@ name: JSHead
 description: Blogging about Web/Mobile Dev
 meta_description: Blogging about Web/Mobile Dev
 markdown: kramdown
-highlighter: rouge
+highlighter: 
 logo: false
 paginate: 5
 baseurl: "/"
@@ -11,6 +11,5 @@ domain_name: http://jshead.io
 google_analytics: UA-XXXXXXXX-X
 gems:
 - jekyll-paginate
-- jekyll-admin
 url: blog url
 author: Kuba
