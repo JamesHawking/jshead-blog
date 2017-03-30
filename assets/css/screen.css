@@ -718,7 +718,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width: 80%;
-    max-width: 910px;
+    max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -848,9 +848,10 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 .post-box {
     border:20px solid white;
-    margin-top: 35%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 710px;
+    margin: 20% 20%;
+    position: absolute;
+
     
   
 }
